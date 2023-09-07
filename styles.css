@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Navigation---------------------------------------------------------------- */
+
+.navigation-container {
+    display:flex;
+    background-color:#1F2937;
+    justify-content: space-between;
+    height:60px;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.logo {
+    color:white;
+    margin-right: auto;
+    font-weight: 800;
+    padding-left:200px;
+}
+
+.links {
+    flex:1;
+    padding-right:200px;
+    
+}
+
+/* HERO Section---------------------------------------------------------------- */
+.hero-container {
+    display:flex;
+    background-color: #1F2937;
+    height:400px;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px;
+}
+
+.heroleft {
+    flex:1;
+    padding-left:170px;
+}
+.heroright {
+    flex:1;
+    padding-right:120px;
+    padding-left:150px;
+    
+}
+.heading {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    
+}
+
+.subtext {
+    color:white;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.headerimage {
+width: 400px;
+height: 200px;
+object-fit: contain;
+object-position: center;
+object-fit: cover;
+object-position: right top;
+}
+
+button  {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:#3882F6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+/* Subsection1----------------------------------------------------------------- */
+.subsection1-container {
+    background-color: white;
+    height:400px;
+}
+.randominfo1 {
+    margin-top:30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    
+}
