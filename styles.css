@@ -30,11 +30,13 @@ a {
 .logo {
     color:white;
     font-weight: 800;
-    padding-left:200px;
+    padding-left:260px;
+    
 }
 
 .links {
-    padding-right:200px;
+    padding-right:260px;
+
     
 }
 
@@ -43,20 +45,24 @@ a {
     display:flex;
     background-color: #1F2937;
     height:400px;
-    justify-content: space-between;
+    justify-content: center;
+    gap:50px;
     align-items:center;
     padding:30px;
+    gap:100px;
 }
 
 .heroleft {
-    flex:1;
-    padding-left:170px;
+
+    height:250px;
+    width:400px;
+   
 }
 .heroright {
-    flex:1;
-    padding-right:120px;
-    padding-left:150px;
     
+    height:250px;
+    padding:10px;
+
 }
 .heading {
     color: #F9FAF8;
@@ -109,3 +115,47 @@ button  {
     color:#1F2937;
     
 }
+
+.cards-container {
+    display:flex;
+    justify-content: center;
+    margin:100px;
+    margin-left: 200px;
+    margin-right:200px;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: #3882F6;
+    border-radius: 5px;
+    flex:1;
+    height:100px;
+    width:100px;
+    padding:20px;
+    text-align:center;
+    
+}
+
+/* Subsection2----------------------------------------------------------------- */
+
+.subsection2-container {
+    background-color: #e5e7eb;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.quote {
+    text-align: center;
+    width:600px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+
+}
+
