@@ -29,13 +29,11 @@ a {
 
 .logo {
     color:white;
-    margin-right: auto;
     font-weight: 800;
     padding-left:200px;
 }
 
 .links {
-    flex:1;
     padding-right:200px;
     
 }
