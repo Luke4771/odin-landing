@@ -193,6 +193,7 @@ button  {
 
 .c2a-container {
 
+    display:flex;
     margin-top:100px;
     width:800px;
     padding: 20px;
@@ -201,17 +202,42 @@ button  {
     background-color: #3882F6;
     color:white;
     border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
+.c2al {
+    display:flex;
+    flex-direction: column;
+}
 .c2aheader {
-    padding-left:50px;
-    padding-top:20px;
-    font-weight:900;
+    flex:1;
+    font-weight: 900;
     font-size: 18px;
 }
 
 .c2apara {
-    padding-left:50px;
+    flex:1;
+}
 
+.signup2 {
+    border-style: solid;
+    border-color: white;
+    padding:10px 40px;
+    width:120px;
+}
+
+.footer {
+    height:70px;
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ft1 {
+    flex:1;
 }
